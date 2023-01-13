@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <faceted-project>
+<<<<<<< HEAD
+  <runtime name="Apache Tomcat v9.0"/>
+  <fixed facet="jst.web"/>
+  <fixed facet="jst.java"/>
+  <installed facet="jst.java" version="11"/>
+  <installed facet="jst.web" version="4.0"/>
+=======
   <fixed facet="jst.web"/>
   <fixed facet="jst.java"/>
   <installed facet="jst.web" version="2.5"/>
   <installed facet="jst.java" version="11"/>
+>>>>>>> branch 'develop' of https://github.com/Choi-Jin-Ho/BoardWebNew.git
 </faceted-project>

@@ -6,6 +6,19 @@ import com.ezen.biz.dto.BoardVO;
 
 public interface BoardService {
 
+<<<<<<< HEAD
+	// CRUD 기능의 메소드 구현
+	// 게시글 등록
+	void insertBoard(BoardVO board);
+
+	// 게시글 수정
+	void updateBoard(BoardVO board);
+
+	// 게시글 삭제
+	void deleteBoard(BoardVO board);
+
+	// 게시글 상세 조회 – seq 번호에 의한 조회
+=======
 	// 게시글 등록
 	void insertBoard(BoardVO board);
 
@@ -16,6 +29,7 @@ public interface BoardService {
 	void deleteBoard(BoardVO board);
 
 	// 게시글 상세 조회
+>>>>>>> branch 'develop' of https://github.com/Choi-Jin-Ho/BoardWebNew.git
 	BoardVO getBoard(BoardVO board);
 
 	// 게시글 목록 조회
