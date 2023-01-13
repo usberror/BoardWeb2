@@ -12,6 +12,7 @@ import com.ezen.biz.dto.BoardVO;
 public class BoardServiceImpl implements BoardService {
 	
 	@Autowired
+<<<<<<< HEAD
 	private BoardDAO bDAO;
 		
 	@Override
@@ -39,6 +40,36 @@ public class BoardServiceImpl implements BoardService {
 	public List<BoardVO> getBoardList() {
 		
 		return bDAO.getBoardList();
+=======
+	private BoardDAO bDao;
+	
+	@Override
+	public void insertBoard(BoardVO board) {
+		bDao.insertBoard(board);
+
+	}
+
+	@Override
+	public void updateBoard(BoardVO board) {
+		bDao.updateBoard(board);
+
+	}
+
+	@Override
+	public void deleteBoard(BoardVO board) {
+		bDao.deleteBoard(board);
+
+	}
+
+	@Override
+	public BoardVO getBoard(BoardVO board) {
+		return bDao.getBoard(board);
+	}
+
+	@Override
+	public List<BoardVO> getBoardList() {
+		return bDao.getBoardList();
+>>>>>>> branch 'develop' of https://github.com/Choi-Jin-Ho/BoardWebNew.git
 	}
 
 }

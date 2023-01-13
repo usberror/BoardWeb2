@@ -16,6 +16,7 @@ public class HelloServlet extends HttpServlet {
      * @see HttpServlet#HttpServlet()
      */
     public HelloServlet() {
+<<<<<<< HEAD
         System.out.println("===>HelloServlet 객체 생성");
     }
 
@@ -25,6 +26,17 @@ public class HelloServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("doGet() 메소드 호출");
 		
+=======
+        super();
+        System.out.println("===> HelloServlet 객체 생성");
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		System.out.println("doGet() 메소드 호출");
+>>>>>>> branch 'develop' of https://github.com/Choi-Jin-Ho/BoardWebNew.git
 	}
 
 	/**

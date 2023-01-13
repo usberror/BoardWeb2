@@ -7,9 +7,18 @@
 
 	<context:component-scan base-package="com.ezen.biz"></context:component-scan>
 	
+<<<<<<< HEAD
 	<bean id="userService" class="com.ezen.biz.user.UserServiceImpl">
 		<property name="userDAO" ref="userDAO"></property>
 	</bean>
 	
 	<bean id="userDAO" class="com.ezen.biz.dao.UserDAO"/>
+=======
+	<!-- (1) Setter 주입방식으로 구현시 -->
+	<bean id="userService" class="com.ezen.biz.users.UserServiceImpl">
+		<property name="userDAO" ref="userDao"></property>
+	</bean>
+	
+	<bean id="userDao" class="com.ezen.biz.user.dao.UserDAO"></bean>
+>>>>>>> branch 'develop' of https://github.com/Choi-Jin-Ho/BoardWebNew.git
 </beans>
